@@ -1,4 +1,5 @@
 class CatagoriesController < ApplicationController
+  
   # GET /catagories
   # GET /catagories.json
   def index
