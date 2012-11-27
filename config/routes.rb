@@ -1,9 +1,15 @@
 BlogRailsadminMongoid::Application.routes.draw do
-  devise_for :products
+  
 
   devise_for :users
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+
+  devise_for :products
+
+
+
+  
 
   resources :catagories
 
